@@ -1,0 +1,17 @@
+{
+  "name": "ussd-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/james-chege/nodejs-ussd-app.git",
+  "author": "James Chege <jymeschege@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "africastalking": "^0.4.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
